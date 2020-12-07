@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CVController">
+   <children>
+      <AnchorPane fx:id="topBarPane" minHeight="25.0" prefHeight="25.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="polishButton" mnemonicParsing="false" text="Polski" AnchorPane.leftAnchor="70.0" />
+            <Button fx:id="englishButton" mnemonicParsing="false" text="English" AnchorPane.leftAnchor="10.0" />
+            <RadioButton fx:id="musicButton" graphicTextGap="10.0" mnemonicParsing="false" selected="true" snapToPixel="false" text="Music    " AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="5.0" />
+         </children>
+      </AnchorPane>
+      <TabPane fx:id="tabMenuPane" prefHeight="732.0" prefWidth="900.0" tabClosingPolicy="UNAVAILABLE" VBox.vgrow="ALWAYS">
+        <tabs>
+          <Tab fx:id="introductionTab" text="Introduction">
+               <content>
+                  <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <ImageView fx:id="photoImageView" fitHeight="300.0" fitWidth="221.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@photos/photo1.jpg" />
+                           </image>
+                        </ImageView>
+                        <HBox alignment="CENTER" prefHeight="30.0" prefWidth="900.0">
+                           <children>
+                              <RadioButton fx:id="firstPhotoRButton" mnemonicParsing="false" selected="true" text="1">
+                                 <HBox.margin>
+                                    <Insets right="10.0" />
+                                 </HBox.margin>
+                                 <toggleGroup>
+                                    <ToggleGroup fx:id="photoGroup" />
+                                 </toggleGroup>
+                              </RadioButton>
+                              <RadioButton fx:id="secondPhotoRButton" mnemonicParsing="false" text="2" toggleGroup="$photoGroup">
+                                 <HBox.margin>
+                                    <Insets right="10.0" />
+                                 </HBox.margin>
+                              </RadioButton>
+                              <RadioButton fx:id="thirdPhotoRButton" mnemonicParsing="false" text="3" toggleGroup="$photoGroup" />
+                           </children>
+                        </HBox>
+                        <Label fx:id="aboutMeIntroductionLabel" text="Tekst o mnie">
+                           <VBox.margin>
+                              <Insets top="10.0" />
+                           </VBox.margin>
+                        </Label>
+                     </children>
+                  </VBox>
+               </content>
+          </Tab>
+          <Tab fx:id="experienceTab" text="Experience">
+               <content>
+                  <Accordion>
+                    <panes>
+                      <TitledPane fx:id="dellnedDEPane" animated="false" text="Dellner desing engineer">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </TitledPane>
+                      <TitledPane fx:id="dellnerPEPane" animated="false" text="Dellner production enginner">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </TitledPane>
+                      <TitledPane fx:id="dellenrSEPane" animated="false" text="Dellner sales engineer">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </TitledPane>
+                        <TitledPane fx:id="internshipPane" animated="false" text="praktyki">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                          </content>
+                        </TitledPane>
+                    </panes>
+                  </Accordion>
+               </content>
+          </Tab>
+            <Tab fx:id="educationTab" text="Education">
+               <content>
+                  <Accordion>
+                    <panes>
+                      <TitledPane fx:id="universityPane" animated="false" text="studia">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </TitledPane>
+                      <TitledPane fx:id="highschoolPane" animated="false" text="liceum">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </TitledPane>
+                      <TitledPane fx:id="preschoolPane" animated="false" text="wcześniej">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </TitledPane>
+                    </panes>
+                  </Accordion>
+               </content>
+            </Tab>
+            <Tab fx:id="skillsTab" text="Skills">
+               <content>
+                  <Accordion>
+                    <panes>
+                      <TitledPane animated="false" text="Programming">
+                        <content>
+                          <AnchorPane fx:id="progrmmingSkillsPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </TitledPane>
+                      <TitledPane fx:id="engineeringSkillsPane" animated="false" text="Engineering">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </TitledPane>
+                      <TitledPane fx:id="languagesSkillsPane" animated="false" text="Languages">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </TitledPane>
+                    </panes>
+                  </Accordion>
+               </content>
+            </Tab>
+            <Tab fx:id="personTab" text="Personality">
+               <content>
+                  <Accordion>
+                    <panes>
+                      <TitledPane fx:id="enneagramPane" animated="false" text="Enneagram">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </TitledPane>
+                      <TitledPane fx:id="mbtiPane" animated="false" text="MBTI">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </TitledPane>
+                      <TitledPane fx:id="hobbiesPane" animated="false" text="Hobbies">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </TitledPane>
+                    </panes>
+                  </Accordion>
+               </content>
+            </Tab>
+            <Tab fx:id="faqTab" text="FAQ">
+               <content>
+                  <Accordion>
+                    <panes>
+                      <TitledPane fx:id="whyProgrammingPane" animated="false" text="Why started programming?">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </TitledPane>
+                      <TitledPane fx:id="why31Pane" animated="false" text="Why hire 31-years old junior programmer?">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </TitledPane>
+                      <TitledPane fx:id="targetPane" animated="false" text="What is my current target?">
+                        <content>
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                        </content>
+                      </TitledPane>
+                    </panes>
+                  </Accordion>
+               </content>
+            </Tab>
+            <Tab fx:id="aboutProgramTab" text="About Program">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</VBox>
