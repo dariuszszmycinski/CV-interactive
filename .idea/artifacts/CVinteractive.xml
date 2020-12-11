@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="CVinteractive">
+    <output-path>$PROJECT_DIR$/out/artifacts/CVinteractive</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="mainCV.MainCV" />
+        <option name="description" value="" />
+        <option name="height" value="600" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="" />
+        <option name="width" value="900" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="CVinteractive.jar">
+        <element id="module-output" name="CVinteractive" />
+      </element>
+    </root>
+  </artifact>
+</component>

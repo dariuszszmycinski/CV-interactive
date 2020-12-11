@@ -5,3 +5,56 @@ Umiejętności
 Osobowość
 O programie
 Muzyka
+Witam, mam na imię Darek i przedstawiam moje nietypowe CV w postaci własnoręcznie napisanego programu. Z programowaniem miałem do czynienia w szkole i na studiach, jednak dopiero w marcu 2020 na poważnie zainteresowałem się Javą i podjąłem decyzję o przebranżowieniu się. Zapraszam do zapoznania się z informacjami o mnie dla wygody podzielonymi na zakładki.
+Konstruktor mechanik - Dellner Sp. z o. o. (08.2019 - obecnie)
+Inżynier produkcji - Dellner components (12.2014 - 08.2019)
+Inżynier sprzedaży - Dellner components (07.2013 - 12.2014)
+Praktyki studenckie
+Dariusz Szmyciński - urodzony 11.11.1989 - tel. 791067186 - e-mail: darekszmycinski@wp.pl - Gdynia
+Konstruktor mechanik w dziale inżynierii odwrotnej. Sprzęgi kolejowe wymagają renowacji i odnowy co kilka lat, jednak nie musi dokonywać jej producent sprzęgu. Firma dellner zajmuje się również renowacją sprzęgów konkurencji, jednak w takim przypadku nie ma dostępu do oryginalnej dokumentacji części producenta. Dział inżynierii wstecznej tworzy brakującą dokumentację na podstawie pomiarów części oraz anologii do własnych produktów. Moja praca polegała głównie na tworzeniu dokumentacji części mechanicznych z wykorzystaniem programów Autodesk Inventor oraz Vault w kilkuosobowym zespole.
+Więcej o Dellnerze
+Inżynier produkcji odpowiedzialny głównie za tworzenie struktur nowych produktów, czyli "programowanie" głównego systemu MRP fabryki. Struktury zawierają informacje o materiale, marszrutę, stanowiskach produkcyjnych i przewidywanym czasie wykonania produktu. Ponadto byłem odpowiedzialny za dział montażu jednego z trzech warsztatów, projektowanie przyrządów, analizę detali niezgodnych z dokumentacją i zastępstwo kierownika w przypadku nieobecności. Stanowisto to wymagało umiejętności szybkiego rozwiązywania problemow i dobrej organizacji w czasie.
+Inżynier sprzedaży odpowiedzialny za szczegółowe przygotowywanie ofert na nowe sprzęgi zgodne z dokumentacją klienta. Wyceny uwzględniały określenie technologii wykonania części, określenie stanowisk produkcyjnych, podwykonastwa i czasu koniecznego na wdrożenie. Ważną częścią pracy na tym stanowisku był również bezpośredni kontakt z klientem w Szwecji, zdalnie i osobiście. Praca na tym stanowisku pozwoliła mi na rozwinięcie umiejętności komunikacyjnych oraz koordynacji pracy kilku działów podczas tworzenia wycen.
+Praktyka studencka w dziale planowania produkcji.
+Praktyka studencka w dziale utrzymania ruchu.
+Mechatronika stosowana na Politechnice Gdańskiej (2008-2013)
+Szkoła średnia (2005-2008)
+Uzyskałem tytuł inżyniera po studiach pierwszego stopnia oraz tytuł magistra po drugim stopniu. Mechatronika bazuje na wykorzystaniu wiedzy i umiejętności z zakresu mechaniki, budowy i eksploatacji maszyn, elektroniki, informatyki, automatyki i sterowania, modelowania, projektowania i eksploatacji wyrobów i procesów produkcyjnych. Kierunek wykładany na Politechnice Gdańskiej kładzie nacisk na pracę projektową w zespole i pozwala na zaznajomienie się z szerokim zakresem pracy inżynierów.
+Zespół Szkół nr 1 im. ks. Czesława Lissowskiego w Rypinie, profil klasy matematyczno - informatyczna z rozszerzoną fizyką. Najlepsza szkoła średnia w mieście Rypin i okolicach. Zdecydowana większość absolwentów dostaje się na wybrane studia. Byłem finalistą wojewódzkiego konkursu fizycznego.
+Programowanie
+Umiejętności inżynierskie
+Języki obce
+Kursy i szkolenia
+Programowania w Javie uczę się w czasie wolnym głównie z kursów internetowych oraz książek. Najwięcej dały mi kursy ze strony javastart.pl oraz książka "Java podstawy wydanie XI" Cay S. Horstmanna. Zdaję sobie sprawę, że wiele muszę się jeszcze nauczyć, jednak przyswojone podstawy powinny być wystarczające do rozpoczęcia przygody z branżą IT. Zachęcam również do odwiedzenia moich profili na githubie i codewars.
+Kliknij w logo by przenieść na mój profil:
+Znane i używane oprogramowanie inżynierskie:
+- Autodesk Inventor (program do projektowania 3d i dokumentacji 2d);
+- Autodesk Vault (system kontroli wersji i wspóldzielenia plików w zespole);
+- Infor, M3 (Systemy ERP (ang. Enterprise Resource Planning) to rodzaj oprogramowania, które służy do planowania zasobów przedsiębiorstwa. Jest to system modułów obejmujących poszczególne obszary firmy – produkcja, handel, logistyka, magazyn, finanse i księgowość, kadry i płace, marketing itd. opartych na jednej wspólnej bazie danych.
+- MS Excel (Dobra znajomość uwzględniająca tworzenie narzędzi usprawniających pracę).
+- Polski - Język rodzimy;
+- Angielski - Wystarczająco dobry by pracować w międzynarodowym zespole technicznym oraz reprezentować firmę przed zagranicznym klientem;
+- Rosyjski - Poziom podstawowy, czytanie cyrylicy i słaba komunikatywność twarzą w twarz.
+- Zarządzanie sobą w czasie (2019);
+- Autodesk Inventor Stopień I (2019);
+- Metody twórczego rozwiązywania problemów i ich praktyczne zastosowania (2017r);
+- Normowanie czasu pracy (2016r);
+- Business 2 Business – tworzenie relacji długoterminowych z klientem (2015r);
+Zainteresowania
+Zgodnie z tym znanym testem osobowości jestem opisywany jako 5w6, co oznacza „rozwiązywacza problemów”. Ten typ jest praktyczny, niezależny i logiczny w swoim zachowaniu. Jesteśmy znacznie bardziej skłonni do współpracy niż czysty typ 5 i chętnie wykorzystujemy wiedzę innych do rozwiązywania rzeczywistych problemów. Mocne strony, które są zwykle związane z osobowością Enneagram 5w6 to: bycie skupionym i dobrze zorganizowanym, pasja do nauki i rozwoju, rozwiązywanie trudnych lub złożonych problemów oraz zachowanie spokoju w czasach kryzysu.
+Według tego testu osobowości zostałem określony jako "Architekt”. Na samym szczycie panuje samotność, a osoby o tym jednym z najrzadszych i najbardziej uzdolnionych strategicznie typów osobowości wiedzą o tym aż nazbyt dobrze. Architekci stanowią zaledwie dwa procent ludności. Ten typ osobowości jest szczególnie rzadki wśród kobiet, u których odsetek wynosi zaledwie 0,8% – często jest więc im trudno znaleźć osoby myślące podobnie do nich, nadążające za ich niezmordowanym intelektem i niemal szachowymi manewrami. Architekci mają bujną wyobraźnię, są zdecydowani, ambitni, lecz cenią sobie prywatność, niezwykle ciekawi świata, lecz nie marnują energii.
+- Rozwój osobisty;
+- Programowanie Java;
+- Inwestowanie (giełda);
+- Rekonstrukcja historyczna (bitwy wczesnośredniowieczne);
+Dlaczego zacząłem programować?
+Dlaczego zatrudnić 31-letniego młodszego programistę?
+Jaki jest mój obecny cel?
+Dlaczego tak długo pracuję w firmie Dellner?
+Mając do czynienia z programowaniem w szkole i na studiach czułem, że mógłbym zajmować się tym w życiu. Poszedłem jednak w kierunku inżynierii, gdyż miałem nadzieję nie spędzać całego dnia przed ekranem komputera. Rzeczywistość rozwiała to wyobrażenie, a mi praca przed komputerem przestała przeszkadzać. Na dotychczasowym stanowisku nie mam już zbyt wielu możliwości rozwoju, powstanowiłem więc przebranżowić się. Nie bez znaczenia oczywiście są znacznie wyższe zarobki w branży IT, ale nie mniej ekscytuję się możliwością uwolnienia swojego pełnego potencjału i rozwój na tej nowej ścieżce. Pragnę uczyć się programowania rozwiązując rzeczywiste problemy i czerpać z doświadczenia bardziej zaawansowanych pracowników.
+Oczywiście większość osób zatrudnianych na stanowisku juniora jest świeżo po studiach lub jeszcze nawet w trakcie. Ja mam nad nimi przewagę kilku lat pracy w dużej firmie, które nauczyły mnie wielu niezwiązanych z programowaniem, ale przydatnych umiejętności. Opanowaną mam pracę w zespole, bez problemu odnajduję się w nowych sytuacjach, sprawnie rozwiązuję problemy i dobrze organizuję swój czas. Ponadto mam już żonę, dwójkę dzieci i kredyt na mieszkanie, przez co będę znacznie stabilniejszym pracownikiem niż młody student. Dodatkowym atutem może być również mała różnica wieku pomiędzy mną a potencjalnymi przełożonymi, która ułatki dobrą komunikację.
+Obecnie najważniejsze jest dla mnie wejście do branży IT, tak  by móc rozwijać się w tym kierunku w czasie pracy, a nie tylko po godzinach. Do tej pory koncentrowałem się na nauce Javy, ale jestem gotowy również poznawać nowe technologie. Wysokońć pensji na początku jest sprawą drugorzędną, wiem że najpierw muszę zdobyć doświadczenie i wykazać użyteczność.
+Do firmy Dellner trafiłem jeszcze będąc na studiach i pracuję tam ponad siedem lat. Przez ten czas pracowałem już na trzech stanowiskach, wykorzystując każdą okazję do rozwoju. Ze względu na wrodzone poczucie lojalności nie szukałem innej pracy, póki dotychczasowa spełniała moje potrzeby i pozwalała uczyć się nowych rzeczy. Jeżeli gdzieś czuję się dobrze, to nie mam potrzeby zmieniać tego na siłę.
+Program napisany w całości samodzielnie za pomocą InteliJ IDEA, Maven i Scene builder. Kod dostępny na GitHub. Program przystosowany do rozszerzenia o kolejne wersje językowe (cały tekst znajduje się w zewnętrznym pliku .txt). Ostatnia aktualizacja 11.12.2020.
+Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych osobowych (Dz. Ustaw z 2018, poz. 1000) oraz zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich danych oraz uchylenia dyrektywy 95/46/WE (RODO)).
+Muzyka w tle:

@@ -8,7 +8,7 @@ public class Lang {
     private String polsihUrl = "src/main/resources/languages/polish.txt";
     private String englishUrl = "src/main/resources/languages/english.txt";
     private String url = englishUrl;
-    public String[] dictionary = new String[7];
+    public String[] dictionary = new String[60];
 
     public void changeEnglishToPolish(){
         url=polsihUrl;

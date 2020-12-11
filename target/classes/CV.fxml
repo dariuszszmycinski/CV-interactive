@@ -14,14 +14,29 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
 <VBox fx:id="mainPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CVController">
    <children>
-      <AnchorPane fx:id="topBarPane" minHeight="25.0" prefHeight="25.0" prefWidth="200.0">
+      <AnchorPane fx:id="topBarPane" minHeight="30.0" prefHeight="30.0" prefWidth="200.0">
          <children>
-            <Button fx:id="polishButton" mnemonicParsing="false" text="Polski" AnchorPane.leftAnchor="70.0" />
-            <Button fx:id="englishButton" mnemonicParsing="false" text="English" AnchorPane.leftAnchor="10.0" />
-            <RadioButton fx:id="musicButton" graphicTextGap="10.0" mnemonicParsing="false" selected="true" snapToPixel="false" text="Music    " AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="5.0" />
+            <Button fx:id="polishButton" mnemonicParsing="false" text="Polski" AnchorPane.leftAnchor="100.0">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@languages/PL-Poland-Flag-icon.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <Button fx:id="englishButton" mnemonicParsing="false" text="English" AnchorPane.leftAnchor="10.0">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@languages/GB-United-Kingdom-Flag-icon.png" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+            <RadioButton fx:id="musicButton" graphicTextGap="10.0" mnemonicParsing="false" selected="true" snapToPixel="false" text="Music    " AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="7.5" />
          </children>
       </AnchorPane>
       <TabPane fx:id="tabMenuPane" prefHeight="732.0" prefWidth="900.0" tabClosingPolicy="UNAVAILABLE" VBox.vgrow="ALWAYS">
@@ -53,11 +68,20 @@
                               <RadioButton fx:id="thirdPhotoRButton" mnemonicParsing="false" text="3" toggleGroup="$photoGroup" />
                            </children>
                         </HBox>
-                        <Label fx:id="aboutMeIntroductionLabel" text="Tekst o mnie">
-                           <VBox.margin>
-                              <Insets top="10.0" />
-                           </VBox.margin>
-                        </Label>
+                        <AnchorPane prefHeight="208.0" prefWidth="900.0">
+                           <children>
+                              <Label fx:id="aboutMeIntroductionLabel" alignment="TOP_CENTER" lineSpacing="0.5" prefHeight="195.0" prefWidth="880.0" text="Tekst o mnie" textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="-160.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="50.0">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font>
+                              </Label>
+                              <Label fx:id="aboutMeBaseInfo" alignment="CENTER" text="Label" textAlignment="CENTER" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="5.0">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </AnchorPane>
                      </children>
                   </VBox>
                </content>
@@ -67,24 +91,138 @@
                   <Accordion>
                     <panes>
                       <TitledPane fx:id="dellnedDEPane" animated="false" text="Dellner desing engineer">
-                        <content>
-                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                        </content>
+                           <content>
+                              <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <ImageView fitHeight="300.0" fitWidth="400.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@modularAC.png" />
+                                       </image>
+                                    </ImageView>
+                                    <AnchorPane prefHeight="400.0" prefWidth="896.0">
+                                       <children>
+                                          <Label fx:id="dellnerDElabel" alignment="TOP_CENTER" text="Label" textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Button fx:id="dellnerDEbutton" layoutX="816.0" layoutY="139.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="170.0" text="More about Dellner" AnchorPane.bottomAnchor="10.0" AnchorPane.rightAnchor="10.0">
+                                             <graphic>
+                                                <ImageView fitHeight="25.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@logo_head.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </graphic>
+                                          </Button>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </VBox>
+                           </content>
                       </TitledPane>
                       <TitledPane fx:id="dellnerPEPane" animated="false" text="Dellner production enginner">
-                        <content>
-                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                        </content>
+                           <content>
+                              <VBox alignment="TOP_CENTER">
+                                 <children>
+                                    <ImageView fitHeight="226.0" fitWidth="306.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@dellnerAutomat.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <AnchorPane prefHeight="400.0" prefWidth="878.0">
+                                       <children>
+                                          <Label fx:id="dellnerPElabel" alignment="TOP_CENTER" text="Label" textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="-1000.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Button fx:id="dellnerDEbutton1" mnemonicParsing="false" prefHeight="25.0" prefWidth="170.0" text="More about Dellner" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0">
+                                             <graphic>
+                                                <ImageView fitHeight="25.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@logo_head.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </graphic>
+                                          </Button>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </VBox>
+                           </content>
                       </TitledPane>
                       <TitledPane fx:id="dellenrSEPane" animated="false" text="Dellner sales engineer">
-                        <content>
-                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                        </content>
+                           <content>
+                              <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <ImageView fitHeight="248.0" fitWidth="376.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@type330.png" />
+                                       </image>
+                                    </ImageView>
+                                    <AnchorPane prefHeight="400.0" prefWidth="200.0">
+                                       <children>
+                                          <Label fx:id="dellnerSElabel" alignment="TOP_CENTER" text="Label" textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="-1000.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Button fx:id="dellnerDEbutton2" mnemonicParsing="false" prefHeight="25.0" prefWidth="170.0" text="More about Dellner" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0">
+                                             <graphic>
+                                                <ImageView fitHeight="25.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@logo_head.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </graphic>
+                                          </Button>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </VBox>
+                           </content>
                       </TitledPane>
                         <TitledPane fx:id="internshipPane" animated="false" text="praktyki">
-                          <content>
-                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                          </content>
+                           <content>
+                              <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@bimet.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label text="Federal-Mogul Bimet SA (07.2011)">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="bimetLabel" text="Label">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets bottom="20.0" />
+                                       </VBox.margin>
+                                    </Label>
+                                    <ImageView fitHeight="204.0" fitWidth="294.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@mondi.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label text="Mondi Świecie S.A. (08.2010)">
+                                       <font>
+                                          <Font size="18.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="mondiLabel" text="Label">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </content>
                         </TitledPane>
                     </panes>
                   </Accordion>
@@ -95,19 +233,48 @@
                   <Accordion>
                     <panes>
                       <TitledPane fx:id="universityPane" animated="false" text="studia">
-                        <content>
-                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                        </content>
+                           <content>
+                              <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <ImageView fitHeight="235.0" fitWidth="236.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@PG.png" />
+                                       </image>
+                                    </ImageView>
+                                    <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Label fx:id="universityLabel" alignment="TOP_CENTER" text="Label" textAlignment="CENTER" wrapText="true" AnchorPane.bottomAnchor="-1000.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </VBox>
+                           </content>
                       </TitledPane>
                       <TitledPane fx:id="highschoolPane" animated="false" text="liceum">
-                        <content>
-                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                        </content>
-                      </TitledPane>
-                      <TitledPane fx:id="preschoolPane" animated="false" text="wcześniej">
-                        <content>
-                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                        </content>
+                           <content>
+                              <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <ImageView fitHeight="207.0" fitWidth="219.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@lorypin.jpeg" />
+                                       </image>
+                                    </ImageView>
+                                    <AnchorPane prefHeight="200.0" prefWidth="200.0">
+                                       <children>
+                                          <Label fx:id="highschoolLabel" alignment="TOP_CENTER" layoutX="141.0" layoutY="55.0" text="Label" wrapText="true" AnchorPane.bottomAnchor="-1000.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </AnchorPane>
+                                 </children>
+                              </VBox>
+                           </content>
                       </TitledPane>
                     </panes>
                   </Accordion>
@@ -117,21 +284,157 @@
                <content>
                   <Accordion>
                     <panes>
-                      <TitledPane animated="false" text="Programming">
+                      <TitledPane fx:id="programmingSkillsPane" animated="false" text="Programming">
                         <content>
-                          <AnchorPane fx:id="progrmmingSkillsPane" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                              <VBox alignment="TOP_CENTER">
+                                 <children>
+                                    <Label fx:id="programmingLabel" alignment="TOP_CENTER" minHeight="80.0" prefHeight="100.0" prefWidth="1600.0" text="Label" textAlignment="CENTER" wrapText="true">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font></Label>
+                                    <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                                       <children>
+                                          <ImageView fitHeight="113.0" fitWidth="285.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@javastart-logo.png" />
+                                             </image>
+                                             <HBox.margin>
+                                                <Insets right="30.0" />
+                                             </HBox.margin>
+                                          </ImageView>
+                                          <ImageView fitHeight="200.0" pickOnBounds="true" preserveRatio="true">
+                                             <image>
+                                                <Image url="@horstmannjpg.jpg" />
+                                             </image>
+                                          </ImageView>
+                                       </children>
+                                    </HBox>
+                                    <Label fx:id="linksLabel" alignment="TOP_CENTER" prefHeight="0.0" prefWidth="878.0" text="Label" textAlignment="CENTER" wrapText="true">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets top="20.0" />
+                                       </VBox.margin>
+                                    </Label>
+                                    <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                                       <children>
+                                          <Button fx:id="githubButton" mnemonicParsing="false">
+                                             <graphic>
+                                                <ImageView fitHeight="150.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@github.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </graphic>
+                                             <HBox.margin>
+                                                <Insets right="20.0" />
+                                             </HBox.margin>
+                                          </Button>
+                                          <Button fx:id="codewarsButton" mnemonicParsing="false">
+                                             <graphic>
+                                                <ImageView fitHeight="150.0" pickOnBounds="true" preserveRatio="true">
+                                                   <image>
+                                                      <Image url="@codewars-logo-1.png" />
+                                                   </image>
+                                                </ImageView>
+                                             </graphic>
+                                          </Button>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
                         </content>
                       </TitledPane>
                       <TitledPane fx:id="engineeringSkillsPane" animated="false" text="Engineering">
-                        <content>
-                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                        </content>
+                           <content>
+                              <VBox prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <Label fx:id="engineeringSkillsLabel1" text="Label" wrapText="true">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="engineeringSkillsLabel2" text="Label" wrapText="true">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="engineeringSkillsLabel3" text="Label" wrapText="true">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="engineeringSkillsLabel4" text="Label" wrapText="true">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="engineeringSkillsLabel5" text="Label" wrapText="true">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </content>
                       </TitledPane>
                       <TitledPane fx:id="languagesSkillsPane" animated="false" text="Languages">
-                        <content>
-                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                        </content>
+                           <content>
+                              <VBox prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <Label fx:id="polishSkillsLabel" text="Label" wrapText="true">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="englishSkillsLabel" text="Label" wrapText="true">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="russianSkillsLabel" text="Label" wrapText="true">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </content>
                       </TitledPane>
+                        <TitledPane fx:id="coursesSkillsPane" animated="false" text="courses">
+                           <content>
+                              <VBox prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <Label fx:id="coursesLabel1" text="Label" wrapText="true">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="coursesLabel2" text="Label" wrapText="true">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="coursesLabel3" text="Label" wrapText="true">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="coursesLabel4" text="Label" wrapText="true">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="coursesLabel5" layoutX="20.0" layoutY="80.0" text="Label" wrapText="true">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </content>
+                        </TitledPane>
                     </panes>
                   </Accordion>
                </content>
@@ -141,19 +444,84 @@
                   <Accordion>
                     <panes>
                       <TitledPane fx:id="enneagramPane" animated="false" text="Enneagram">
-                        <content>
-                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                        </content>
+                           <content>
+                              <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <ImageView fitHeight="299.0" fitWidth="321.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@enneagram-labels-01.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label text="Enneagram - 5w6">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" />
+                                       </VBox.margin>
+                                    </Label>
+                                    <Label fx:id="enneagramLabel" text="Label" textAlignment="CENTER" wrapText="true">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </content>
                       </TitledPane>
                       <TitledPane fx:id="mbtiPane" animated="false" text="MBTI">
-                        <content>
-                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                        </content>
+                           <content>
+                              <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <ImageView fitHeight="308.0" fitWidth="377.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@MBTI-Test-1.jpg" />
+                                       </image>
+                                    </ImageView>
+                                    <Label text="MBTI - INTJ">
+                                       <font>
+                                          <Font size="16.0" />
+                                       </font>
+                                       <VBox.margin>
+                                          <Insets bottom="10.0" />
+                                       </VBox.margin>
+                                    </Label>
+                                    <Label fx:id="mbtiLabel" text="Label" textAlignment="CENTER" wrapText="true">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </content>
                       </TitledPane>
                       <TitledPane fx:id="hobbiesPane" animated="false" text="Hobbies">
-                        <content>
-                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-                        </content>
+                           <content>
+                              <VBox prefHeight="200.0" prefWidth="100.0">
+                                 <children>
+                                    <Label fx:id="hobbiesLabel1" text="Label">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="hobbiesLabel2" text="Label">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="hobbiesLabel3" text="Label">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                    <Label fx:id="hobbiesLabel4" text="Label">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children>
+                              </VBox>
+                           </content>
                       </TitledPane>
                     </panes>
                   </Accordion>
@@ -165,27 +533,89 @@
                     <panes>
                       <TitledPane fx:id="whyProgrammingPane" animated="false" text="Why started programming?">
                         <content>
-                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <Label fx:id="whyProgrammingLabel" layoutX="14.0" layoutY="14.0" text="Label" wrapText="true" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
                         </content>
                       </TitledPane>
                       <TitledPane fx:id="why31Pane" animated="false" text="Why hire 31-years old junior programmer?">
                         <content>
-                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <Label fx:id="why31Label" layoutX="10.0" layoutY="10.0" text="Label" wrapText="true" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
                         </content>
                       </TitledPane>
                       <TitledPane fx:id="targetPane" animated="false" text="What is my current target?">
                         <content>
-                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+                          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <Label fx:id="targetLabel" text="Label" wrapText="true" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
                         </content>
                       </TitledPane>
+                        <TitledPane fx:id="whyDellnerPane" animated="false" text="Why working so long in Dellner?">
+                          <content>
+                            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                                 <children>
+                                    <Label fx:id="whyDellnerLabel" text="Label" wrapText="true" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+                                       <font>
+                                          <Font size="14.0" />
+                                       </font>
+                                    </Label>
+                                 </children></AnchorPane>
+                          </content>
+                        </TitledPane>
                     </panes>
                   </Accordion>
                </content>
             </Tab>
             <Tab fx:id="aboutProgramTab" text="About Program">
-              <content>
-                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
-              </content>
+               <content>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label fx:id="aboutProgramLabel" text="Label" wrapText="true">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="rodoLabel" alignment="TOP_LEFT" text="program wspiera dodawanie nowych języków                          klauzura dodawana do cv o danych osobowych" wrapText="true">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets bottom="20.0" />
+                           </VBox.margin>
+                        </Label>
+                        <Label fx:id="musicLabel" text="Label">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                        <Label prefHeight="67.0" prefWidth="455.0" text="Feelin Good by Kevin MacLeodLink: https://incompetech.filmmusic.io/song/3744-feelin-goodLicense: http://creativecommons.org/licenses/by/4.0/" wrapText="true">
+                           <font>
+                              <Font size="14.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </content>
             </Tab>
         </tabs>
       </TabPane>

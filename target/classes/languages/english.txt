@@ -5,3 +5,56 @@ Skills
 Personality
 About program
 Music
+Hello, my name is Darek and I present my unusual CV in the form of a program made by me. I dealt with programming at school and in college, but started learning Java seriously March 2020 and made the decision to change my work area. I invite you to read the information about me, divided into tabs for your convenience.
+Design engineer - Dellner Sp. z o. o. (08.2019 - present)
+Production engineer - Dellner components (12.2014 - 08.2019)
+Sales engineer - Dellner components (07.2013 - 12.2014)
+Student internships
+Dariusz Szmyciński - born 11.11.1989 - cell. 791067186 - e-mail: darekszmycinski@wp.pl - Gdynia
+Mechanical constructor in reverse engineering department. Railroad coupliers require renovation and renewal every few years, but it does not have to be done by the coupler manufacturer. The dellner company also renovates competitors' couplings, but in this case, there is no access to the original manufacturer's parts documentation. Reverse Engineering creates missing documentation based on part measurements and anology for its own products. My job was mainly to create documentation for mechanical parts using Autodesk Inventor and Vault.
+More about Dellner
+Production engineer mainly responsible for creating new product structures, which is "programming" the factory's main MRP system. The structures contain information about the material, route, production stations and estimated time of product completion. In addition, I was responsible for the assembly department of one of the three workshops, designing devices, analysis of details that do not comply with the documentation and replacing the manager in case of absence. This clearly required the ability to solve problems quickly and be well organized over time.
+Sales engineer responsible for the detailed preparation of offers for new couplers in accordance with the customer's documentation. The offers included the specification of the part manufacturing technology, the specification of production stations, subcontracting and implementation time. An important part of the work in this position was also direct contact with the client in Sweden, remotely and in person. Working in this position allowed me to develop communication skills and to coordinate the work of several departments when creating valuations.
+Student internship in the production planning department.
+Student internship in the maintenance department.
+Gdańsk University of Technology, applied mechatronics (2008 - 2013)
+High school (2005-2008)
+I obtained an engineering degree after first stage studies and a master's degree after second stage. Mechatronics is based on the use of knowledge and skills in the field of mechanics, construction and operation of machines, electronics, computer science, automation and control, modeling, design and operation of products and production processes. The course taught at the Gdańsk University of Technology puts emphasis on project work in a team and allows to familiarize yourself with a wide range of engineers' work.
+School Complex No. 1 named after Fr. Czesław Lissowski in Rypin, profile of the mathematics and computer science class with extended physics. The best high school in the city of Rypin and its vicinity. I was the finalist of the provincial physics competition.
+Programming
+Engineering skills
+Foreign Languages
+Courses and training
+I learn Java programming in my spare time mainly from online courses and books. The courses from javastart.pl and the book "Java Basics 11th Edition" by Cay S. Horstmann gave me the most. I realize that I still have a lot to learn, but the basics learned should be enough to start the adventure with the IT industry. I also encourage you to visit my github and codewars profiles.
+Click on the logo to transfer to my profile:
+Known and used engineering software:
+- Autodesk Inventor (a program for 3d design and 2d documentation);
+- Autodesk Vault (version control system and team file sharing);
+- Infor, M3 (ERP systems (Enterprise Resource Planning) is a type of software used for enterprise resource planning. It is a system of modules covering individual areas of the company - production, trade, logistics, warehouse, finance and accounting, human resources and payroll, marketing etc. based on one common database.
+- MS Excel (Good knowledge including the creation of tools to improve work).
+- Polish - native language;
+- English - good enough to work in an international technical team and represent the company to a foreign client;
+- Russian - Elementary level, Cyrillic reading and poor face-to-face communication.
+- Self-management in time (2019);
+- Autodesk Inventor Stage I (2019);
+- Creative problem solving methods and their practical applications (2017);
+- Working time standardization (2016);
+- Business 2 Business - creating long-term relationships with the client (2015);
+Hobbies
+According to this known personality test I am described as 5w6 which means "Troubleshooter". This type tend to be practical, independent, and logical in their behavior. We are much more cooperative than other five types and have a passion for using their knowledge to solve real-world problems. Strengths that are typically associated with the Enneagram 5w6 personality include: Being focused and well-organized, passion for learning and growing, solving difficult or complex problems and remaining calm in times of crisis.
+According to this personality test, I have been identified as "The Architect." There is loneliness at the very top, and people with one of the rarest and most strategically gifted personality types know it all too well. Architects represent only two percent of the population. among women, whose percentage is only 0.8% - so it is often difficult for them to find people who think like them, who can follow their tireless intellect and almost chess maneuvers. Architects have vivid imaginations, but are determined, ambitious, but value their privacy , extremely curious about the world, but they don't waste energy.
+- Personal development;
+- Java programming;
+- Investing (stock market);
+- Historical reconstruction (early medieval battles);
+Why started programming?
+Why hire 31-years old junior programmer?
+What is my current target?
+Why working so long in Dellner?
+Having to do with programming in school and college, I felt that I could do that in my life. But I went in the direction of engineering, hoping not to spend all day in front of a computer screen. The reality dispelled this image and my work in front of the computer ceased to bother me. In my current position, I do not have too many development opportunities, so I decided to change the industry. Of course, much higher earnings in the IT industry are also important, but I'm no less excited to unlock my full potential and grow on this new path. I want to learn programming by solving real problems and learn from the experience of more advanced employees.
+Of course, most of the people employed on the junior position are fresh out of studies or even in the process of doing so. I have the advantage of several years of work in a large company over them, which have taught me many not related to programming, but useful skills. I have mastered work in a team, I find myself in new situations without any problems, I efficiently solve problems and organize my time well. In addition, I already have a wife, two children and a loan for an apartment, which will make me a much more stable employee than a young student. Another advantage may be the small age difference between me and potential superiors, which will facilitate good communication.
+Currently, the most important thing for me is to enter the IT industry, so that I can develop in this direction during work, and not only after hours. Until now, I have focused on learning Java, but I am also ready to explore new technologies. The amount of salary in the beginning is a secondary matter, I know that first I have to gain experience and demonstrate usefulness.
+I came to Dellner while still a student and I have been working there for over seven years. During this time, I have already worked in three positions, taking advantage of every opportunity for development. Due to my innate sense of loyalty, I did not look for another job as long as the current one met my needs and allowed me to learn new things. If I feel good somewhere, I don't need to force it.
+The program was written entirely independently with InteliJ IDEA, Maven and Scene builder. Code available on GitHub. Program adapted to be extended with new language versions (all text is in an external .txt file). Last updated on 12/11/2020.
+I consent to the processing of my personal data for the purposes of the recruitment process (in accordance with the Act of May 10, 2018 on the protection of personal data (Journal of Laws of 2018, item 1000) and in accordance with the Regulation of the European Parliament and of the Council (EU) 2016/679 of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46 / EC (GDPR)).
+Background music:
